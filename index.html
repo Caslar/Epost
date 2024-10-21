@@ -9,12 +9,32 @@
     <script src='main.js'></script>
 </head>
 <body>
-    <form action="https://formsubmit.co/caslar2007@gmail.com" method="POST">
-        <label for="">Hva har du bestilt?</label>
-        <input type="text" name="name" required>
-        <label for="">Epost</label>
-        <input type="email" name="email" required>
-        <button type="submit">Send</button>
-   </form>
+    <h1 style="text-align: center;">Beste pizza i Norge</h1>
+    <h2 style="text-align: center;">Klikk på bildene for å se mer:</h2>
+        <div class="EN">
+            <div>
+                <a href="Burger.html"><img src="burger-on-a-wooden-backgound.jpg" alt="" width="409px"></a>
+                <a href="Pizza.html"><img src="richly-decorated-italian-pizza-1706288503LK1.jpg" alt="" width="409px"></a>
+                <a href="Kebab.html"><img src="street-grill-food (1).jpg" alt="" width="409px"></a>   
+            </div> 
+        </div>
+  
 </body>
+<style>
+       @media screen {
+            table {
+                width: 100%;
+            }
+    body{
+        background-color: lightblue;
+    }
+    .EN{
+        display: flex;  
+    } 
+    .EN > div{
+        justify-content: center;
+        align-items: center;
+    }
+}
+</style>
 </html>
